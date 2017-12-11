@@ -12,7 +12,7 @@ public class PoisonTrap extends Room {
 		occupant = x;
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
-		System.out.println("As you walk into the room, you hear the door behind you slamming shut. A gas begins to fill the room from small slits"
+		System.out.println("As yo0u walk into the room, you hear the door behind you slamming shut. A gas begins to fill the room from small slits"
 				+ " in the walls.");
 	}
 	
