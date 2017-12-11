@@ -13,7 +13,9 @@ public class WinningRoom extends Room {
 		occupant = x;
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
-		System.out.println("You found the winning room! Ten points for Gryffindor.");
+		System.out.println("You enter a room that gives you an eerie feeling. Unlike the rest of the rooms, this one is decorated \n "
+				+ "with drawing of weapons. One image stands out in particular, a king being hung. \n \n At the center of the room"
+				+ " you see a stone lion with a tablet beneath its paws.");
 		Runner.gameOff();
 	}
 	
